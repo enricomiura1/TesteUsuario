@@ -1,0 +1,24 @@
+Loguin no site publico x
+
+
+Funcionalidade : Efetuar loguin no site.
+
+Cenário 1 : Loguin com email ou senha inválida.
+Dado usuário preencheu email e senha no loguin da conta
+E loguin ou senha inválidos
+Quando o usuário clicar em logar/entrar.
+Então aparecera a mensagem : "Loguin ou senha invalidas"
+
+
+Cenario 2 : Loguin sem cadastro.
+Dado usuário preencheu email e senha no loguin da conta
+E o usuário não estiver cadastrado.
+Quando o usuário clicar em logar/entrar.
+Então aparecera a mensagem : "Usuario não cadastrado"
+
+
+Cenário 3 : Loguin com email e senha valida.
+Dado usuário preencheu email e senha no loguin da conta
+E loguin e senha validos
+Quando o usuário clicar em logar/entrar.
+Então aparecera a mensagem : "Loguin ou senha invalidas"
